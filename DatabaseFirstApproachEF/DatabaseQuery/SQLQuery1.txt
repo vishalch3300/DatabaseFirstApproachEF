@@ -1,0 +1,15 @@
+﻿
+CREATE DATABASE DataBaseFirstApproachEF
+
+USE DataBaseFirstApproachEF
+
+-------------------------------------------------
+
+CREATE TABLE Student (
+Id INT PRIMARY KEY IDENTITY,
+Name varchar(50),
+Gender varchar(50),
+Age int,
+Standard int)
+
+select * from Student
